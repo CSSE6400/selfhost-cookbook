@@ -35,11 +35,13 @@ $ cd /var/www/html
 
 Finally we can deploy the hextris files.
 
+// todo(eh): Get this from a zip dist of the repo instead of using git.
+
 ```shell
 sudo git clone https://github.com/Hextris/hextris .
 ```
 
-// todo(eh): Shouldnt this fail from file permission issues.
+// todo(eh): Add that the file permissions should be set for the apache user.
 
 ## Container ( Week 4+ )
 
